@@ -46,7 +46,7 @@ exit
 - Finally, VM is destroyed:
 
 ```bash
-vagrand destroy
+vagrant destroy
 ```
 
 ***That's all folks!!!***
