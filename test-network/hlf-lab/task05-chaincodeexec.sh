@@ -3,7 +3,7 @@
 clear
 echo -e "===== Chaincode exec =====\n"
 
-export GITHUBUSERID="tarsoqueiroz"
+export GITHUBUSERID="hlf"
 cd $HOME/go/src/github.com/$GITHUBUSERID/fabric-samples/test-network
 
 echo -e "\n=== Preparing to interact with Chaincode..."

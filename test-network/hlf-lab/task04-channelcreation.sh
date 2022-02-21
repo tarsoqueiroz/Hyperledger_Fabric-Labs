@@ -3,7 +3,7 @@
 clear
 echo -e "===== Channel 'mychannel' creation =====\n"
 
-export GITHUBUSERID="tarsoqueiroz"
+export GITHUBUSERID="hlf"
 cd $HOME/go/src/github.com/$GITHUBUSERID/fabric-samples/test-network
 ./network.sh createChannel
 

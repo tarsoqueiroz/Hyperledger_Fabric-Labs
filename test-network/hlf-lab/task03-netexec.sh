@@ -3,7 +3,7 @@
 clear
 echo -e "===== Network exec =====\n"
 
-export GITHUBUSERID="tarsoqueiroz"
+export GITHUBUSERID="hlf"
 cd $HOME/go/src/github.com/$GITHUBUSERID/fabric-samples/test-network
 
 ./network.sh down

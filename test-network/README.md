@@ -9,11 +9,17 @@ Installed products:
 
 ## Steps to run
 
-- Clone the repo
-- Go to test-network
+- Clone repo and go to test-network
+
+```bash
+git clone https://github.com/tarsoqueiroz/Hyperledger_Fabric-Labs.git
+
+cd Hyperledger_Fabric-Labs/test-network/
+```
+
 - Building VM:
 
-```shell
+```bash
 vagrant up
 ```
 
@@ -22,5 +28,25 @@ vagrant up
 ```shell
 vagrant ssh
 
+/hlf-lab/task01-verify.sh
 
+/hlf-lab/task02-blockchain.sh
+
+/hlf-lab/task03-netexec.sh
+
+/hlf-lab/task04-channelcreation.sh
+
+/hlf-lab/task05-chaincodeexec.sh
+
+/hlf-lab/task06-destroy.sh
+
+exit
 ```
+
+- Finally, VM is destroyed:
+
+```bash
+vagrand destroy
+```
+
+***That's all folks!!!***
